@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@font-face {
+  font-family: Android;
+  src: url("idroid.otf") format("opentype");
+  font-weight: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor0: #c54bd6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
+
+  --fontpadao: Arial, Helvetica, sans-serif;
+  --fontdestaque: "bebas Neue", sans-serif;
+  --fontandoid: "android", cursive;
+}
+body {
+  background-color: var(--cor1);
+  font-family: var(--fontpadao);
+}
+header {
+  background-color: var(--cor5);
+  color: white;
+  text-align: center;
+  min-height: 150px;
+  background-image: linear-gradient(to top, #063d1e, #2fa866);
+}
+header h1 {
+  font-family: var(--fontandoid), sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 3em;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+header p {
+  font-size: 1.2em;
+  font-family: var(--fontpadao);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  padding-right: 10x;
+  padding-bottom: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+nav {
+  background-color: var(--cor5);
+  padding: 20px;
+}
+
+footer {
+  padding-inline-start: 10px;
+  background-color: var(--cor5);
+  color: white;
+}
