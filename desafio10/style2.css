@@ -32,12 +32,12 @@ header {
   color: white;
   text-align: center;
   min-height: 150px;
+  padding-top: 20px;
   background-image: linear-gradient(to top, #063d1e, #2fa866);
 }
 header h1 {
   font-family: var(--fontandoid), sans-serif;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-size: 3em;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
@@ -53,11 +53,52 @@ header p {
 }
 nav {
   background-color: var(--cor5);
-  padding: 20px;
+  padding: 10px;
+  box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.164);
+}
+nav > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+
+  font-size: 1em;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: var(--cor3);
+  color: var(--cor5);
+  transition-duration: 0.2s;
+  border-radius: 3px;
+}
+main {
+  background-color: white;
+  width: 840px;
+  margin: auto;
+}
+h2 {
+  font-family: var(--fontandoid);
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+h3 {
+  font-family: var(--fontandoid);
+  background-image: linear-gradient(to right, #83e1ad, transparent);
+  font-size: 1.5em;
+  margin-left: 15px;
+}
+img {
+  margin: auto;
+}
+p {
+  text-indent: 20px;
+  margin: 15px;
 }
 
 footer {
-  padding-inline-start: 10px;
   background-color: var(--cor5);
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
   color: white;
 }
