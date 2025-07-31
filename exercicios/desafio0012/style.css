@@ -1,27 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap");
 * {
   margin: 0px;
-  height: 0px;
+  padding: 0px;
+}
+:root {
+  --fontpadao: Verdana, Geneva, Tahoma, sans-serif;
+  --font1: "Sriracha", cursive;
+  --font2: "Passion One", cursive;
+}
+html,
+body {
+  min-height: 100vh;
+  font-family: var(--fontpadao);
+  background-color: darkgray;
 }
 header {
+  font-family: var(--font2);
   background-color: black;
   color: white;
-  height: 200px;
   text-align: center;
 }
+
 header > h1 {
+  font-variant: small-caps;
   padding-top: 50px;
-  padding-bottom: 80px;
-  font-size: 4em;
-  font-family: robo;
+  font-size: 10vw;
 }
-#conteiner {
-  height: 600px;
-  background-image: url("joaniha.jpg");
-  background-position: top center;
-  background-attachment: fixed;
+header > p {
+  padding-bottom: 50px;
 }
-main > article > p {
-  margin-top: 40px;
-  margin-bottom: 50px;
-  line-height: 5em;
+header a,
+footer a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: darkcyan;
+}
+header a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+section {
+  font-family: var(--font1);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  line-height: 2em;
+  font-size: 3.5vw;
+}
+section.imagem {
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+section.normal {
+  background-color: white;
+  color: black;
+}
+section#joaninha {
+  background: url(joaniha.jpg) right center no-repeat fixed;
+  background-size: cover;
+}
+section#papel {
+  background: url(papel.jpg) right center no-repeat fixed;
+  background-size: cover;
+}
+
+section.imagem > p {
+  background-color: rgba(0, 0, 0, 0.274);
+  padding-left: 5px;
+  display: inline-block;
+}
+footer {
+  font-family: var(--font2);
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
 }
