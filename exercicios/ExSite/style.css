@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+body {
+  background-color: rgb(231, 231, 252);
+}
+main {
+  background-color: white;
+  margin: auto;
+  min-width: 280px;
+  max-width: 840px;
+  padding: 20px;
+  border-radius: 10px;
+}
+main > .imagem {
+  width: 100%;
+  border-radius: 10px;
+}
+ol,
+ul > li {
+  line-height: 2em;
+  font-size: 1.2em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Young Serif", serif;
+}
+#caixa {
+  max-width: 300px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  padding: 8px;
+  border-bottom: 1px solid rgba(185, 186, 197, 0.438);
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+td {
+  padding: 15px;
+}

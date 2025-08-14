@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabela simples</title>
+    <style>
+      table {
+        width: 500px;
+        height: 200px;
+
+        border-collapse: collapse;
+      }
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center; /*isso é para mudar a posicao vertical dos dados de dentro da tabela*/
+      }
+      #teste {
+        vertical-align: bottom; /*isso serve para mudar a posicao horizontal dos dados da tabela*/
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td id="teste">a1</td>
+        <td id="teste">a2</td>
+        <td>a3</td>
+        <td>a4</td>
+      </tr>
+      <tr>
+        <td>b1</td>
+        <td>b2</td>
+        <td>b3</td>
+        <td>b4</td>
+      </tr>
+    </table>
+  </body>
+</html>
