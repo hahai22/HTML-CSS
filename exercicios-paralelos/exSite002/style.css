@@ -1,0 +1,30 @@
+header,
+#selecao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  padding-bottom: 50px;
+}
+header > .sol {
+  background-color: blue;
+}
+#conteiner {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 5px;
+}
+.cards {
+  height: 200vw;
+  width: 300vw;
+  border: 1px solid black;
+  width: 100%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

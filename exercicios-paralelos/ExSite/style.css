@@ -32,6 +32,10 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+h2,
+h3 {
+  padding: 15px;
+}
 
 tr {
   padding: 8px;
